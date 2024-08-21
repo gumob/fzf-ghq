@@ -27,7 +27,7 @@ The following additional features are implemented in the [`ghq`](https://github.
 ### Download [fzf-ghq](https://github.com/gumob/fzf-ghq) to your home directory
 
 ```shell
-wget -O ~/.fzfgitutil https://raw.githubusercontent.com/gumob/fzf-ghq/main/fzf-ghq.sh
+wget -O ~/.fzfghq https://raw.githubusercontent.com/gumob/fzf-ghq/main/fzf-ghq.sh
 ```
 
 ### Using key bindings
@@ -38,7 +38,7 @@ By default, no key bindings are set. If you want to set the key binding to `Ctrl
 ```shell
 cat <<EOL >> ~/.zshrc
 export FZF_GHQ_KEY_BINDING="^G"
-source ~/.fzfgitutil
+source ~/.fzfghq
 EOL
 ```
 
@@ -47,7 +47,7 @@ EOL
 ```shell
 source <(fzf --zsh)
 export FZF_GHQ_KEY_BINDING='^G'
-source ~/.fzfgitutil
+source ~/.fzfghq
 ```
 
 Source run command
