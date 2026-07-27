@@ -24,10 +24,10 @@ The following additional features are implemented in the [`ghq`](https://github.
 
 ## Installation
 
-### Download [fzf-ghq](https://github.com/gumob/fzf-ghq) to your home directory
+### Download [fzf-ghq](https://github.com/futamura/fzf-ghq) to your home directory
 
 ```shell
-wget -O ~/.fzfghq https://raw.githubusercontent.com/gumob/fzf-ghq/main/fzf-ghq.sh
+wget -O ~/.fzfghq https://raw.githubusercontent.com/futamura/fzf-ghq/main/fzf-ghq.sh
 ```
 
 ### Using key bindings
